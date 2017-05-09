@@ -4,11 +4,34 @@
 * {
 	font-family: Helvetica, Arial, sans-serif;
 }
+
+
+a {
+	font-family: "Montserrat", sans-serif;
+	font-weight:bold;
+}
+
+h1 {
+	font-family: "Montserrat", sans-serif;
+	font-weight:bold;
+	
+	text-align:left;
+	
+}
+
 h2 {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-weight:200;
 	margin-top:-20px;
 }
+
+h3 {
+	font-family: "Montserrat", sans-serif;
+	font-weight:bold;
+	text-align:left;
+	font-size: 130%;
+}
+
 tr:nth-child(even) {
 	background-color: #CCD1C3;
 }
