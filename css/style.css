@@ -32,6 +32,14 @@ h3 {
 	font-size: 130%;
 }
 
+.header-margin {
+	font-family: "Montserrat", sans-serif;
+	font-weight:bold;
+	text-align:left;
+	font-size: 130%;
+	margin-top:60px;
+}
+
 tr:nth-child(even) {
 	background-color: #CCD1C3;
 }
@@ -91,6 +99,15 @@ a:active {
 	color: #E0FF00;
 }
 
+
+fieldset {
+	border-style:none;
+}
+
+fieldset:first-child input {
+	margin-right:25px;
+
+}
 
 
 span {
