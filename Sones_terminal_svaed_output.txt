@@ -1,0 +1,57 @@
+Last login: Tue May  2 12:10:00 on console
+grc-finland:~ ksones$ 
+grc-finland:~ ksones$ cd deskto/338_03_L5_sones
+-bash: cd: deskto/338_03_L5_sones: No such file or directory
+grc-finland:~ ksones$ cd desktop/338_03_L5_sones
+grc-finland:338_03_L5_sones ksones$ git init
+Initialized empty Git repository in /Users/ksones/Desktop/338_03_L5_sones/.git/
+grc-finland:338_03_L5_sones ksones$ git add -A
+grc-finland:338_03_L5_sones ksones$ git commit -m "add files"
+[master (root-commit) 89865cf] add files
+ 5 files changed, 24 insertions(+)
+ create mode 100644 .DS_Store
+ create mode 100644 Untitled-3.html
+ create mode 100644 css/style.css
+ create mode 100644 images/Logo.gif
+ create mode 100644 index.html
+grc-finland:338_03_L5_sones ksones$ git add -A
+grc-finland:338_03_L5_sones ksones$ git commit -m "add files"
+[master 234dbef] add files
+ 8 files changed, 6314 insertions(+), 10 deletions(-)
+ create mode 100755 Lab 5 text.docx
+ delete mode 100644 Untitled-3.html
+ create mode 100755 images/LimeGreen.jpg
+ create mode 100755 images/black.png
+ create mode 100755 images/green.jpg
+ create mode 100755 images/logo.ai
+ create mode 100755 images/white.jpg
+grc-finland:338_03_L5_sones ksones$ git commit -am "added table and images"
+[master fe48b40] added table and images
+ 1 file changed, 70 insertions(+), 1 deletion(-)
+grc-finland:338_03_L5_sones ksones$ git commit -am "sized images"
+[master f6667df] sized images
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+grc-finland:338_03_L5_sones ksones$ git remote add origin https://github.com/kathleen-sones/L5_sones.git
+grc-finland:338_03_L5_sones ksones$ git push -u origin master
+Counting objects: 25, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (22/22), done.
+Writing objects: 100% (25/25), 2.71 MiB | 1.81 MiB/s, done.
+Total 25 (delta 7), reused 0 (delta 0)
+remote: Resolving deltas: 100% (7/7), done.
+git To https://github.com/kathleen-sones/L5_sones.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+grc-finland:338_03_L5_sones ksones$ git commit -am "fine tuning"
+[master bf8f5ab] fine tuning
+ 2 files changed, 91 insertions(+), 7 deletions(-)
+grc-finland:338_03_L5_sones ksones$ git push
+Counting objects: 5, done.
+Delta compression using up to 4 threads.
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 1.01 KiB | 0 bytes/s, done.
+Total 5 (delta 2), reused 0 (delta 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/kathleen-sones/L5_sones.git
+   f6667df..bf8f5ab  master -> master
+grc-finland:338_03_L5_sones ksones$ 
